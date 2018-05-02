@@ -22,6 +22,36 @@
 ## 3. GitHub のアカウント登録
 
 ## 4. SSHキーを登録する
+以下の手順はmac用です。
+- terminalを起動する
+- SSH鍵を保存するためのフォルダを作成
+```
+$ cd ~
+$ mkdir -m 700 ~/.ssh
+```
+- SSH鍵を生成する
+```
+$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/username/.ssh/id_rsa):  ← 作成される場所。問題なければEnter。
+Enter passphrase (empty for no passphrase):  ← パスフレーズの入力。省略する場合はそのままEnter。
+Enter same passphrase again:  ← パスフレーズの再入力。省略した場合はそのままEnter。
+```
+- 生成された鍵を確認
+```
+$ ls ~/.ssh/
+id_rsa      id_rsa.pub
+```
+- 鍵ファイルの権限を変更
+```
+$ chmod 600 ~/.ssh/id_rsa
+```
+- クリップボードに公開鍵をコピー
+```
+$ cat ~/.ssh/id_rsa.pub | pbcopy
+```
+- 
+[参考サイト](http://cameong.hatenablog.com/entry/2017/02/17/011429)
 
 ## 5. web-development-tutorialをForkする
 
