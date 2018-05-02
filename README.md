@@ -21,18 +21,22 @@
 
 ## 3. GitHub のアカウント登録
 
-## 4. web-development-tutorialをForkする
+## 4. SSHキーを登録する
 
-## 5. issueを作成する
+## 5. web-development-tutorialをForkする
 
-## 6. branchを切る
+## 6. ローカルにリポジトリをcloneする
 
-## 7. 変更を加える
+## 7. issueを作成する
 
-## 8. commitする
+## 8. branchを切り替える
 
-## 9. pushする
+## 9. リポジトリに変更を加える
 
-## 10. masterにマージする (Pull request)
+## 10. commitする
 
-## 11. 課題（具体的な何か）
+## 11. pushする
+
+## 12. masterにマージする (Pull request)
+
+## 13. 課題（具体的な何か）
