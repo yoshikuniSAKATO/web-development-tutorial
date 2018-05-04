@@ -1,5 +1,10 @@
 # 鈴木商店 事前課題
 
+# テスト
+ {% assign pages = (site.pages | where: "section" , "pages") %} {% for page in pages %}
+
+[{{ page.title }}]({{ page.url | prepend: site.baseurl }}) {% endfor %}
+
 ## 0. 課題のススメ方
 本課題では、項目にそって課題をこなしていくことで、開発に必要な最低限の知識を身に着けるように構成しています。
 
@@ -22,6 +27,9 @@
 ## 3. GitHub のアカウント登録
 
 ## 4.SSHキーを登録する
+
+[SSH](/docs/pages/sshkey.md)
+
 以下の手順はmac用です。
 - terminalを起動する
 - SSH鍵を保存するためのフォルダを作成
