@@ -1,5 +1,7 @@
 # 鈴木商店 事前課題
 
+[チュートリアル](https://suzukishouten.github.io/web-development-tutorial/)
+
 ## 0. 課題のススメ方
 本課題では、項目にそって課題をこなしていくことで、開発に必要な最低限の知識を身に着けるように構成しています。
 
