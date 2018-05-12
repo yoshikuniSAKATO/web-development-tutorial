@@ -1,4 +1,5 @@
 ---
+layout: default
 title: WEB開発チュートリアル
 ---
 
