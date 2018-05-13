@@ -13,6 +13,12 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
 
+defaults:
+  - scope:
+      path: "_screenshots"
+    values:
+      image: true
+
 # Custom vars
 version:            1.0.0
 sidebar_home_link:  true
