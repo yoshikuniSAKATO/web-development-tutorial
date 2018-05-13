@@ -5,12 +5,8 @@ highlighter:      rouge
 # Setup
 title:            鈴木商店
 tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+description:      '大阪のクラウドシステム開発会社'
 url:              https://suzukishouten.github.io/web-development-tutorial/
-
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
 
 plugins:
   - jekyll-feed
