@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            鈴木商店
 tagline:          'A Jekyll theme'
 description:      '大阪のクラウドシステム開発会社'
-url:              https://suzukishouten.github.io/web-development-tutorial/
+url:              https://suzukishouten.github.io/web-development-tutorial
 
 plugins:
   - jekyll-feed
