@@ -1,1 +1,21 @@
-theme: jekyll-theme-cayman
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            鈴木商店
+tagline:          'A Jekyll theme'
+description:      '大阪のクラウドシステム開発会社'
+url:              https://suzukishouten.github.io/web-development-tutorial/
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:            1.0.0
+sidebar_home_link:  true
+
+github:
+  repo:             https://github.com/suzukiSHOUTEN/web-development-tutorial
